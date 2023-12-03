@@ -14,29 +14,23 @@ const socialLinks: Array<{
 	{
 		name: "mdi:github",
 		friendlyName: "Github",
-		link: "https://github.com/chrismwilliams/astro-cactus",
+		link: "https://github.com/sherlockzen",
 	},
 	{
-		name: "mdi:mastodon",
-		friendlyName: "Mastodon",
-		link: "#",
+		name: "mdi:twitter",
+		friendlyName: "Devto",
+		link: "https://x.com/hewertonsoares",
 	},
 	{
 		name: "mdi:linkedin",
 		friendlyName: "LinkedIn",
-		link: "#",
-	},
-	{
-		name: "mdi:email",
-		friendlyName: "email",
-		link: "mailto:astro-cactus@chriswilliams.dev",
-		isWebmention: true,
+		link: "https://linkedin.com/in/hewertonsoares",
 	},
 ];
 ---
 
 <div class="flex flex-wrap items-end gap-x-4">
-	<p>Find me on</p>
+	<p>Onde me encontrar</p>
 	<ul class="flex flex-1 items-center gap-x-2 sm:flex-initial">
 		{
 			socialLinks.map(({ link, name, friendlyName, isWebmention }) => (
