@@ -10,6 +10,7 @@ declare module "@pagefind/default-ui" {
 
 interface ImportMetaEnv {
 	readonly STRAPI_URL: string;
+	readonly TOKEN: string;
 }
 
 interface ImportMeta {
